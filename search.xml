@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>自己紹介</title>
+    <url>/2022/07/04/presentation/</url>
+    <content><![CDATA[<hr>
+<p>私はチョウカンメイと申します。2019年に大連理工大学のデジタルメディア専攻から卒業しました。在校の間にはプロコースと数学などの科目で優れた成績が取り、「Unityに基づくゲーム開発」、「教育向けのソフトウェアデザインと開発」、「画像処理技術を応用したナンバープレート識別アルゴリズム」など含む研究室プロジェクトにもたくさん参加いたしました。大学四年生の際には北京にあるインターネット会社で実習いたし、その間の研究成果物として「PC及びモバイル端末をベースにしたカーシェアのバックグラウンド管理システム」があります。卒業後に広州銀行に就職して、主の仕事は「モバイルバンキング」の開発することです。</p>
+<p>　私は複数のプログラミング言語に精通しており、豊富な開発経験も持っていたします。大学在学中にC&#x2F;C++、Javaなどの開発言語を習得し、独学でJavaScriptを学びました。これらの技術を利用して個人ブログ、スマホ上の医療アプリ、音声認識ウェブページなどを開発したことがあります。専攻だけでなく、他の分野の知識にも興味があり、インターネット技術とメディアなどを用いて社会的な情報を伝える効率の向上は私がずっとやりたかった研究です。そこで独学でデザイン理論を学び、さまざまな分野のウェブページとアプリインターフェイスのデザインと開発は、よく勉強と仕事をした後しております。これらはすべて研究成果物で見ることができ、是非ご覧いただきたいと願っております。</p>
+<p>　私の独学能力は比較的強く、vueとsprint bootフレームワークはすべて自分で勉強して応用します。同時に知識の理解も非常に速いです。多くのプロジェクトに参加した際は当時新しい技術を学びながら開発を行い、卒業設計も当時の新しく学んだNode.jsテクノロジーを用いて行われました。新しいものや技術を受け入れるのが好きで、元会社の毎日変わらない開発作業に飽きたので日本に留学することにしました。留学tを通じて社会に役立つクリエイティブな作品を作りたいです。</p>
+<p>ビジュアライゼーションと情報デザインに興味があり、渡邉教授の「戦前・戦中の報道写真を用いたストーリーテリング・デジタルアーカイブのデザイン」を見て、多くの新しい考えが浮かびました。修士の間に自分の専門に役立つ研究ができると確信しており、この機会を与えていただきたくお願い申し上げます。ご検討のほど、何卒よろしくお願い申し上げます。</p>
+]]></content>
+      <categories>
+        <category>ブログ</category>
+      </categories>
+      <tags>
+        <tag>東大</tag>
+        <tag>頑張る</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>happy birthday</title>
     <url>/2022/07/06/birthaday/</url>
     <content><![CDATA[<hr>
@@ -11,34 +28,6 @@
       </categories>
       <tags>
         <tag>birthday</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>中国伝統的な色</title>
-    <url>/2021/11/28/color/</url>
-    <content><![CDATA[<p><a href="https://colors.ichuantong.cn/">https://colors.ichuantong.cn/</a></p>
-]]></content>
-      <categories>
-        <category>colorful</category>
-      </categories>
-      <tags>
-        <tag>colorful</tag>
-        <tag>chinese</tag>
-        <tag>伝統</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>日本伝統的な色</title>
-    <url>/2021/11/28/color%20copy/</url>
-    <content><![CDATA[<p><a href="https://nipponcolors.com/#tokiwa">https://nipponcolors.com/#tokiwa</a></p>
-]]></content>
-      <categories>
-        <category>colorful</category>
-      </categories>
-      <tags>
-        <tag>colorful</tag>
-        <tag>伝統</tag>
-        <tag>日本</tag>
       </tags>
   </entry>
   <entry>
@@ -60,6 +49,25 @@
       <tags>
         <tag>コロナ</tag>
         <tag>厚生労働省</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>先生からの推薦書頂きました！</title>
+    <url>/2022/06/18/tuijian/</url>
+    <content><![CDATA[<p>As Zhang Huanming’s undergraduate advisor, I have instructed him to complete his university studies and academic graduation thesis.</p>
+<p>Zhang huanming always has strong ambitions and works hard for them. Once he set a goal to strive for, he will be persistent until he succeeds. There was a period in his freshman year when he felt overwhelmed. However, he quickly found where to lay his passion after communicating with me, and began to focus on training his programming ability and explore his love for video and media. Soon after, Zhang Huanming chose to study Digital Media Technology, and got excellent grades in professional courses, such as Introductory Digital Media Technology. After deciding on pursuing further education in Japan, he also obtained the foreign language proficiency certifications in both Japanese and English within one year.</p>
+<p>Zhang Huanming also has the courage to keep on trying without fear of failure. In the second-year English Listening &amp; Speaking courses, he did not shy away from delivering presentations in public despite the nervousness. Instead, he practiced hard and eventually felt ease with presentation. He insisted that he would rather be wrong than do nothing, and that success happens after failed attempts. It was this spirit of learning that got him a score of 91 out of 100 in the Workplace English course in his junior year.</p>
+<p>The most outstanding quality that Zhang Huanming possesses is that he is keen on improving and applying the skills learned into real projects. For example, in the third year of university, students were asked to complete the development of a 3D game using the Unity software for an assignment from the Multi-media Interactive Computer Design course. There were only two members in Zhang Huanming’s group, so he had to learn modeling and animation effects besides finishing the coding by himself. Additionally, he is also interested in the UI design of software, and he often goes online to study design theories. And he has successfully developed multiple applications catering to various needs, during which process he combined programming technology and did everything himself from interface design all the way to background logic development. It has laid a solid foundation for the off-campus internship in the senior year and the employment after graduation.</p>
+<p>The research direction of Zhang Huanming’s graduation thesis is “Application of Internet Technology in Medical Field”. Under my instruction, he has had remarkable performance on this topic through his independent research of relevant materials, analysis of competing products on the market, step-by-step revision and refinement of his ideas. At the same time, he often participated in various APP production projects during his school days. Aiming to develop excellent practical applications, his accomplishments have covered education, entertainment, finance and other aspects, which can be seen from his research results. Moreover, Zhang Huanming stays passionate about the visual representation of data, as how to present it intuitively to customers is what he wants to achieve.</p>
+<p>In view of the above, I would like to recommend Zhang Huanming to your laboratory. With the opportunity to further study and develop in the good academic environment and research atmosphere of your university, I am convinced that he will be a valuable asset not only to his field of study, but also to academics and society. </p>
+<p>I sincerely encourage you to look favorably upon his application.</p>
+]]></content>
+      <categories>
+        <category>ブログ</category>
+      </categories>
+      <tags>
+        <tag>東大</tag>
+        <tag>推薦書</tag>
       </tags>
   </entry>
   <entry>
@@ -116,23 +124,6 @@
       </tags>
   </entry>
   <entry>
-    <title>自己紹介</title>
-    <url>/2022/07/04/presentation/</url>
-    <content><![CDATA[<hr>
-<p>私はチョウカンメイと申します。2019年に大連理工大学のデジタルメディア専攻から卒業しました。在校の間にはプロコースと数学などの科目で優れた成績が取り、「Unityに基づくゲーム開発」、「教育向けのソフトウェアデザインと開発」、「画像処理技術を応用したナンバープレート識別アルゴリズム」など含む研究室プロジェクトにもたくさん参加いたしました。大学四年生の際には北京にあるインターネット会社で実習いたし、その間の研究成果物として「PC及びモバイル端末をベースにしたカーシェアのバックグラウンド管理システム」があります。卒業後に広州銀行に就職して、主の仕事は「モバイルバンキング」の開発することです。</p>
-<p>　私は複数のプログラミング言語に精通しており、豊富な開発経験も持っていたします。大学在学中にC&#x2F;C++、Javaなどの開発言語を習得し、独学でJavaScriptを学びました。これらの技術を利用して個人ブログ、スマホ上の医療アプリ、音声認識ウェブページなどを開発したことがあります。専攻だけでなく、他の分野の知識にも興味があり、インターネット技術とメディアなどを用いて社会的な情報を伝える効率の向上は私がずっとやりたかった研究です。そこで独学でデザイン理論を学び、さまざまな分野のウェブページとアプリインターフェイスのデザインと開発は、よく勉強と仕事をした後しております。これらはすべて研究成果物で見ることができ、是非ご覧いただきたいと願っております。</p>
-<p>　私の独学能力は比較的強く、vueとsprint bootフレームワークはすべて自分で勉強して応用します。同時に知識の理解も非常に速いです。多くのプロジェクトに参加した際は当時新しい技術を学びながら開発を行い、卒業設計も当時の新しく学んだNode.jsテクノロジーを用いて行われました。新しいものや技術を受け入れるのが好きで、元会社の毎日変わらない開発作業に飽きたので日本に留学することにしました。留学tを通じて社会に役立つクリエイティブな作品を作りたいです。</p>
-<p>ビジュアライゼーションと情報デザインに興味があり、渡邉教授の「戦前・戦中の報道写真を用いたストーリーテリング・デジタルアーカイブのデザイン」を見て、多くの新しい考えが浮かびました。修士の間に自分の専門に役立つ研究ができると確信しており、この機会を与えていただきたくお願い申し上げます。ご検討のほど、何卒よろしくお願い申し上げます。</p>
-]]></content>
-      <categories>
-        <category>ブログ</category>
-      </categories>
-      <tags>
-        <tag>東大</tag>
-        <tag>頑張る</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>one last kiss</title>
     <url>/2022/01/08/one%20last%20kiss/</url>
     <content><![CDATA[<p>初めてのルーブルは<br>第一次去卢浮宫时<br>なんてことはなかったわ<br>并没有什么特别的感觉<br>私だけのモナリザ<br>因为独属于我的蒙娜丽莎<br>もうとっくに出会ってたから<br>我早已遇见<br>初めてあなたを見た<br>初次遇见你的那天<br>あの日動き出した歯車<br>齿轮开始转动<br>止められない喪失の予感<br>无法停止那将要失去什么的预感</p>
@@ -154,22 +145,31 @@
       </tags>
   </entry>
   <entry>
-    <title>先生からの推薦書頂きました！</title>
-    <url>/2022/06/18/tuijian/</url>
-    <content><![CDATA[<p>As Zhang Huanming’s undergraduate advisor, I have instructed him to complete his university studies and academic graduation thesis.</p>
-<p>Zhang huanming always has strong ambitions and works hard for them. Once he set a goal to strive for, he will be persistent until he succeeds. There was a period in his freshman year when he felt overwhelmed. However, he quickly found where to lay his passion after communicating with me, and began to focus on training his programming ability and explore his love for video and media. Soon after, Zhang Huanming chose to study Digital Media Technology, and got excellent grades in professional courses, such as Introductory Digital Media Technology. After deciding on pursuing further education in Japan, he also obtained the foreign language proficiency certifications in both Japanese and English within one year.</p>
-<p>Zhang Huanming also has the courage to keep on trying without fear of failure. In the second-year English Listening &amp; Speaking courses, he did not shy away from delivering presentations in public despite the nervousness. Instead, he practiced hard and eventually felt ease with presentation. He insisted that he would rather be wrong than do nothing, and that success happens after failed attempts. It was this spirit of learning that got him a score of 91 out of 100 in the Workplace English course in his junior year.</p>
-<p>The most outstanding quality that Zhang Huanming possesses is that he is keen on improving and applying the skills learned into real projects. For example, in the third year of university, students were asked to complete the development of a 3D game using the Unity software for an assignment from the Multi-media Interactive Computer Design course. There were only two members in Zhang Huanming’s group, so he had to learn modeling and animation effects besides finishing the coding by himself. Additionally, he is also interested in the UI design of software, and he often goes online to study design theories. And he has successfully developed multiple applications catering to various needs, during which process he combined programming technology and did everything himself from interface design all the way to background logic development. It has laid a solid foundation for the off-campus internship in the senior year and the employment after graduation.</p>
-<p>The research direction of Zhang Huanming’s graduation thesis is “Application of Internet Technology in Medical Field”. Under my instruction, he has had remarkable performance on this topic through his independent research of relevant materials, analysis of competing products on the market, step-by-step revision and refinement of his ideas. At the same time, he often participated in various APP production projects during his school days. Aiming to develop excellent practical applications, his accomplishments have covered education, entertainment, finance and other aspects, which can be seen from his research results. Moreover, Zhang Huanming stays passionate about the visual representation of data, as how to present it intuitively to customers is what he wants to achieve.</p>
-<p>In view of the above, I would like to recommend Zhang Huanming to your laboratory. With the opportunity to further study and develop in the good academic environment and research atmosphere of your university, I am convinced that he will be a valuable asset not only to his field of study, but also to academics and society. </p>
-<p>I sincerely encourage you to look favorably upon his application.</p>
+    <title>日本伝統的な色</title>
+    <url>/2021/11/28/color%20copy/</url>
+    <content><![CDATA[<p><a href="https://nipponcolors.com/#tokiwa">https://nipponcolors.com/#tokiwa</a></p>
 ]]></content>
       <categories>
-        <category>ブログ</category>
+        <category>colorful</category>
       </categories>
       <tags>
-        <tag>東大</tag>
-        <tag>推薦書</tag>
+        <tag>colorful</tag>
+        <tag>日本</tag>
+        <tag>伝統</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>中国伝統的な色</title>
+    <url>/2021/11/28/color/</url>
+    <content><![CDATA[<p><a href="https://colors.ichuantong.cn/">https://colors.ichuantong.cn/</a></p>
+]]></content>
+      <categories>
+        <category>colorful</category>
+      </categories>
+      <tags>
+        <tag>colorful</tag>
+        <tag>伝統</tag>
+        <tag>chinese</tag>
       </tags>
   </entry>
   <entry>
@@ -228,7 +228,7 @@
 <p>図5.1 オープントップページ</p>
 <p>図5.2 ログインインタフェース</p>
 <p>図5.3 登録インタフェース</p>
-<p>その中のパスワード回収機能はメールボックスからアカウントとパスワードを送信することによって実現され、nodejsが構築したバックグラウンドでは、nodemailerモジュールを呼び出すことによってこの機能を実現します。コアコードは以下の通りです。<br>const nodemailer &#x3D; require(‘nodemailer’)<br>const transporter &#x3D; nodemailer.createTransport({<br>     service: ‘qq’,<br>     port: 465, &#x2F;&#x2F; SMTPポート<br>      secureConnection: true, &#x2F;&#x2F; SSLを使用する<br>         auth: {<br>            user: ‘<a href="mailto:&#x31;&#x32;&#51;&#52;&#53;&#x36;&#x37;&#x38;&#57;&#64;&#103;&#109;&#x61;&#x69;&#108;&#46;&#99;&#111;&#109;">&#x31;&#x32;&#51;&#52;&#53;&#x36;&#x37;&#x38;&#57;&#64;&#103;&#109;&#x61;&#x69;&#108;&#46;&#99;&#111;&#109;</a>‘,<br>            pass: ‘abcdefghijk’  }<br>})<br>let mailOptions &#x3D; {<br>              from: ‘<a href="mailto:&#x31;&#x32;&#x33;&#52;&#53;&#x36;&#55;&#x38;&#x39;&#x40;&#103;&#x6d;&#97;&#105;&#x6c;&#x2e;&#99;&#x6f;&#109;">&#x31;&#x32;&#x33;&#52;&#53;&#x36;&#55;&#x38;&#x39;&#x40;&#103;&#x6d;&#97;&#105;&#x6c;&#x2e;&#99;&#x6f;&#109;</a>‘,<br>              to: obj.mail,<br>              subject: ‘账号密码找回’,<br>              text: ‘账号：’ + results[0].user + ‘ ，密码：’ + results[0].pwd<br>           }<br>        transporter.sendMail(mailOptions, function (error, info))<br>}<br>5.3.2 カルテディスプレイインタフェース<br>カルテプレゼンテーションインタフェースは登録後に展示される最初のインタフェースであり、主要な情報を搭載する部分でもあり、基本的にはユーザーのすべての情報がカルテ展示インタフェースの中で展示されるとともに、カルテ展示インタフェースにも文字情報入力モジュールの入り口及び詳細インタフェースの入り口が含まれています。<br>カルテプレゼンテーションインタフェースを図5.4に示します。</p>
+<p>その中のパスワード回収機能はメールボックスからアカウントとパスワードを送信することによって実現され、nodejsが構築したバックグラウンドでは、nodemailerモジュールを呼び出すことによってこの機能を実現します。コアコードは以下の通りです。<br>const nodemailer &#x3D; require(‘nodemailer’)<br>const transporter &#x3D; nodemailer.createTransport({<br>     service: ‘qq’,<br>     port: 465, &#x2F;&#x2F; SMTPポート<br>      secureConnection: true, &#x2F;&#x2F; SSLを使用する<br>         auth: {<br>            user: ‘<a href="mailto:&#x31;&#x32;&#51;&#x34;&#53;&#54;&#55;&#x38;&#x39;&#64;&#103;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#111;&#109;">&#x31;&#x32;&#51;&#x34;&#53;&#54;&#55;&#x38;&#x39;&#64;&#103;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#111;&#109;</a>‘,<br>            pass: ‘abcdefghijk’  }<br>})<br>let mailOptions &#x3D; {<br>              from: ‘<a href="mailto:&#x31;&#x32;&#x33;&#52;&#x35;&#54;&#x37;&#56;&#x39;&#x40;&#103;&#109;&#97;&#105;&#x6c;&#46;&#x63;&#x6f;&#x6d;">&#x31;&#x32;&#x33;&#52;&#x35;&#54;&#x37;&#56;&#x39;&#x40;&#103;&#109;&#97;&#105;&#x6c;&#46;&#x63;&#x6f;&#x6d;</a>‘,<br>              to: obj.mail,<br>              subject: ‘账号密码找回’,<br>              text: ‘账号：’ + results[0].user + ‘ ，密码：’ + results[0].pwd<br>           }<br>        transporter.sendMail(mailOptions, function (error, info))<br>}<br>5.3.2 カルテディスプレイインタフェース<br>カルテプレゼンテーションインタフェースは登録後に展示される最初のインタフェースであり、主要な情報を搭載する部分でもあり、基本的にはユーザーのすべての情報がカルテ展示インタフェースの中で展示されるとともに、カルテ展示インタフェースにも文字情報入力モジュールの入り口及び詳細インタフェースの入り口が含まれています。<br>カルテプレゼンテーションインタフェースを図5.4に示します。</p>
 <p>図5.4 プレゼンテーションインタフェース<br>5.3.3  モジュールプレゼンテーションインタフェース<br>モジュールプレゼンテーションインタフェースは患者のカルテ情報を統計し、それから部位別に展示し、疾病の出現回数によって体の部位を異なる色に標識し、出現回数の上昇によって緑から黄色と赤に順に、そして右側で問題の部位の回数を詳細に統計します。モジュールを図5.5に示します。</p>
 <p>図5.5モジュールプレゼンテーションインタフェース<br>5.3.4  情報インプットインタフェース<br>情報インプットインタフェースは、カルテ情報テキストをシステムに入力することです。情報インプットには2つの方法があります。1つは直接のテキスト入力で、もう1つは1つの画像をアップロードして画像認識を行った後、認識したテキストを対応するテキストボックスに入力し、その後テキスト入力インタフェースにジャンプします。画像アップロードのフロントエンドにはinputタグが実装されており、inputタグの属性をfileに設定した後、onclickイベントで$eventオブジェクトを傍受し、アップロードされた画像リソースを取得します。その後、フロントエンドでピクチャをbase 64形式にトランスコードしてpost方式でnodejsサーバに送信してピクチャ中の文字認識を行い、データを返します。また、より高解像度のピクチャを得るためには、フロントエンドはピクチャを圧縮する必要がないため、データ転送の過程でより多くの時間が必要になります。nodejsで画像認識部がBaidu OCRインタフェースを呼び出し、base 64フォーマットを受信する.pngピクチャは、その後認識された文字を返します。コアコードは次の通りです。<br>const AipOcrClient &#x3D; require(“baidu-aip-sdk”).ocr<br>          &#x2F;&#x2F; 百度apiオブジェクトの作成<br>          const client &#x3D; new AipOcrClient(APP_ID, API_KEY, SECRET_KEY);<br>          &#x2F;&#x2F; 文字認識結果の取得<br>app.post(‘&#x2F;img’, function (req, res) {<br>req.on(‘data’, function (data) {<br>let obj &#x3D; JSON.parse(data)<br>console.log(obj.img)<br>client.generalBasic(obj.img).then(function(result){<br>console.log(JSON.stringify(result))<br>res.send(JSON.stringify(result))<br>}).catch(function(err) {                   &#x2F;&#x2F; ネットワークエラーが発生した場合<br>  console.log(err);<br>res.send(‘识别失败’)<br>                 })<br>             })<br>          })<br>情報インプットインタフェースのスクリーンショットを図5.6に示します。</p>
 <p>図5.6(1)インプットインタフェース</p>
