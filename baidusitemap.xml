@@ -5,7 +5,15 @@
     <lastmod>2022-07-06</lastmod>
   </url>
   <url>
-    <loc>http://example.com/2021/11/28/color%20copy/</loc>
+    <loc>http://example.com/galleries/%E6%97%A5%E8%A8%98/index.html</loc>
+    <lastmod>2022-07-06</lastmod>
+  </url>
+  <url>
+    <loc>http://example.com/2022/07/06/birthaday/</loc>
+    <lastmod>2022-07-06</lastmod>
+  </url>
+  <url>
+    <loc>http://example.com/2019/07/28/zuopin/</loc>
     <lastmod>2022-07-06</lastmod>
   </url>
   <url>
@@ -13,7 +21,7 @@
     <lastmod>2022-07-06</lastmod>
   </url>
   <url>
-    <loc>http://example.com/2019/07/28/zuopin/</loc>
+    <loc>http://example.com/2021/11/28/color%20copy/</loc>
     <lastmod>2022-07-06</lastmod>
   </url>
   <url>
@@ -38,10 +46,6 @@
   </url>
   <url>
     <loc>http://example.com/2021/11/28/color/</loc>
-    <lastmod>2022-07-06</lastmod>
-  </url>
-  <url>
-    <loc>http://example.com/2022/07/06/birthaday/</loc>
     <lastmod>2022-07-06</lastmod>
   </url>
 </urlset> 
