@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>happy birthday</title>
+    <url>/2022/07/06/birthaday/</url>
+    <content><![CDATA[<hr>
+<p>Today is my birthday.</p>
+]]></content>
+      <categories>
+        <category>ブログ</category>
+      </categories>
+      <tags>
+        <tag>birthday</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>自己紹介</title>
+    <url>/2022/07/06/presentation/</url>
+    <content><![CDATA[<hr>
+<p>私はチョウカンメイと申します。2019年に大連理工大学のデジタルメディア専攻から卒業しました。在校の間にはプロコースと数学などの科目で優れた成績が取り、「Unityに基づくゲーム開発」、「教育向けのソフトウェアデザインと開発」、「画像処理技術を応用したナンバープレート識別アルゴリズム」など含む研究室プロジェクトにもたくさん参加いたしました。大学四年生の際には北京にあるインターネット会社で実習いたし、その間の研究成果物として「PC及びモバイル端末をベースにしたカーシェアのバックグラウンド管理システム」があります。卒業後に広州銀行に就職して、主の仕事は「モバイルバンキング」の開発することです。</p>
+<p>　私は複数のプログラミング言語に精通しており、豊富な開発経験も持っていたします。大学在学中にC&#x2F;C++、Javaなどの開発言語を習得し、独学でJavaScriptを学びました。これらの技術を利用して個人ブログ、スマホ上の医療アプリ、音声認識ウェブページなどを開発したことがあります。専攻だけでなく、他の分野の知識にも興味があり、インターネット技術とメディアなどを用いて社会的な情報を伝える効率の向上は私がずっとやりたかった研究です。そこで独学でデザイン理論を学び、さまざまな分野のウェブページとアプリインターフェイスのデザインと開発は、よく勉強と仕事をした後しております。これらはすべて研究成果物で見ることができ、是非ご覧いただきたいと願っております。</p>
+<p>　私の独学能力は比較的強く、vueとsprint bootフレームワークはすべて自分で勉強して応用します。同時に知識の理解も非常に速いです。多くのプロジェクトに参加した際は当時新しい技術を学びながら開発を行い、卒業設計も当時の新しく学んだNode.jsテクノロジーを用いて行われました。新しいものや技術を受け入れるのが好きで、元会社の毎日変わらない開発作業に飽きたので日本に留学することにしました。留学tを通じて社会に役立つクリエイティブな作品を作りたいです。</p>
+<p>ビジュアライゼーションと情報デザインに興味があり、渡邉教授の「戦前・戦中の報道写真を用いたストーリーテリング・デジタルアーカイブのデザイン」を見て、多くの新しい考えが浮かびました。修士の間に自分の専門に役立つ研究ができると確信しており、この機会を与えていただきたくお願い申し上げます。ご検討のほど、何卒よろしくお願い申し上げます。</p>
+]]></content>
+      <categories>
+        <category>ブログ</category>
+      </categories>
+      <tags>
+        <tag>東大</tag>
+        <tag>頑張る</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>一文教会你如何搭建个人hexo博客</title>
+    <url>/2022/03/08/%E4%B8%80%E6%96%87%E6%95%99%E4%BC%9A%E4%BD%A0%E5%A6%82%E4%BD%95%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BAhexo%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<p>写在前面的话<br>很早以前就想要搭建一个个人的博客，奈何只是一个前端切图仔，对于后端和数据库接口上手存在一定的难度，于是一拖拖了很久，今天无意中发现了使用Hexo搭建个人博客很快就能用了，而且托管在github平台也不需要自己去买服务器域名和维护，一举数得，非常nice，记录了一下搭建Hexo个人博客的步骤，尽可能的写的详细一点~</p>
+<p>准备工作步骤<br>1：GitHub上面新建一个仓库，用来放自己的博客<br>2：安装git工具，生成SSH添加到GitHub<br>3：本地环境搭建，安装node 和npm<br>4：本地初始化Hexo项目并且运行<br>5：Hexo主题<br>6：部署到github<br>7：生成markdown文件，写文章并且发布</p>
+<p>言归正传，开始我们的写作步骤吧</p>
+<p>一：在GitHub上面新建一个仓库，用来放自己的博客<br>1：新建一个仓库<br>创建一个和你用户名相同的仓库，后面加.github.io后缀，必须要同名哦，不然后面会出现页面404的情况，点击create respository按钮创建。</p>
+<p>2：安装git工具，生成SSH添加到GitHub<br>安装git工具这里就不多说了，安装完成之后，在桌面上git bash进入命令行，输入GitHub用户名和邮箱验证。</p>
+<p>查看输入是否正确</p>
+<p>3：然后创建SSH，一路回车</p>
+<p>这个时候可以看到在磁盘里面生成了私人密钥和公共密钥了</p>
+<p>4：在GitHub上设置密钥<br>在GitHub的setting中，找到Deploy keys的设置选项，点击新建一个密钥，把id_rsa.pub里面的信息复制进去，id_rsa.pub打开方式可以使用浏览器打开。</p>
+<p>新建密钥成功，到这里github仓库和密钥问题就OK了。</p>
+<p>二：Hexo搭建个人博客-框架的本地安装和运行<br>1：Hexo的官网<br><a href="https://hexo.io/">https://hexo.io/</a></p>
+<p>2：安装node 和npm<br>hexo基于node.js，本地需要安装node 和npm，安装步骤就不多说了<br>查看一下是否有版本号，有的话则安装成功。</p>
+<p>3：全局安装 hexo</p>
+<p>4：初始化一个项目</p>
+<p>这时候可以看到在d盘里面生成了一个文件夹。</p>
+<p>5：进入项目文件夹，安装依赖文件</p>
+<p>6：运行，并且在浏览器打开，就可以看到博客页面了</p>
+<p><a href="http://localhost:4000/">http://localhost:4000</a></p>
+<p>三：更换一个自己喜欢的主题<br>1：博客主题的安装<br>主题这一块可以选择自己喜欢的，以下是以一个Anisina主题为例，这里有很多主题可以选择：传送门：<a href="https://hexo.io/themes/%E3%80%82%E6%AF%94%E5%A6%82%E9%80%89%E4%B8%80%E4%B8%AA%E4%B8%BB%E9%A2%98%EF%BC%9Ahttps://github.com/haojen/hexo-theme-Anisina%EF%BC%8C%E6%89%93%E5%BC%80%E9%93%BE%E6%8E%A5%EF%BC%8C%E8%BF%9B%E5%85%A5%E5%88%B0GitHub%E9%87%8C%E9%9D%A2%EF%BC%8C%E6%9C%89%E8%AF%A6%E7%BB%86%E7%9A%84%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B%E3%80%82">https://hexo.io/themes/。比如选一个主题：https://github.com/haojen/hexo-theme-Anisina，打开链接，进入到GitHub里面，有详细的安装教程。</a></p>
+<p>2：安装主题命令输入</p>
+<p>3：打开_config.yml文件夹，更改主题名字</p>
+<p>4：再次启动，就可以看到更换的主题了。</p>
+<p>OK，搭建好了自己喜欢的主题风格了，接下来需要部署了。</p>
+<p>四. 部署到github<br>1：在配置文件里面填写仓库地址<br>在项目里面找到 _congif.yml文件，找到 deploy 字段，把以下代码放进去，填写第一步新建的仓库地址。</p>
+<p>2：安装一个推送工具，将本地项目推到仓库上。</p>
+<p>3：然后执行以下命令<br>清除了你之前生成的东西，也可以不加。</p>
+<p>4：hexo generate 生成静态文件，可以用 hexo g缩写</p>
+<p>可以看到在目录里面生成了一个静态的文件，生成好的public文件夹就直接当成静态网站进行部署即可。</p>
+<p>5： 部署</p>
+<p>注意这里需要输入GitHub用户名和密码哦</p>
+
+
+
+<p>6：查看仓库，已经将项目放在仓库里面了</p>
+<p>这个时候就可以访问了，已经把静态文件都托管在GitHub了，查看分配的地址：<a href="https://wangxiaoting666.github.io/">https://wangxiaoting666.github.io/</a></p>
+<p>五：开始写文章<br>1：新建一个markdown文件</p>
+<p>在source_posts里面生成了markdown文件夹，用来写文章了，记住要使用markdown格式书写文章博客。</p>
+<p>2：当你写完的时候，再输入命令</p>
+<p>就可以看到新增的自己的文章了</p>
+<p>3：如果要再写一篇，可以再生成一个md文件进行书写</p>
+<p>4：好了，自己的博客搭建起来了，后面会慢慢的往里面增加一些文章，以及接入评论系统，统计文章阅读量，代码高亮，图床等功能。</p>
+]]></content>
+      <categories>
+        <category>プロジェクト</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>テクノロジー</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>one last kiss</title>
+    <url>/2022/01/08/one%20last%20kiss/</url>
+    <content><![CDATA[<p>初めてのルーブルは<br>第一次去卢浮宫时<br>なんてことはなかったわ<br>并没有什么特别的感觉<br>私だけのモナリザ<br>因为独属于我的蒙娜丽莎<br>もうとっくに出会ってたから<br>我早已遇见<br>初めてあなたを見た<br>初次遇见你的那天<br>あの日動き出した歯車<br>齿轮开始转动<br>止められない喪失の予感<br>无法停止那将要失去什么的预感</p>
+<p>もういっぱいあるけど<br>虽说已经有很多次了<br>もう一つ増やしましょう<br>让我们再来一个吻吧<br>(Can you give me one last kiss？)<br>忘れたくないこと<br>不想遗忘之事</p>
+<p>Oh oh oh oh oh…<br>忘れたくないこと<br>不愿遗忘之事<br>Oh oh oh oh oh…<br>I love you more than you’ll ever know</p>
+<p>「写真は苦手なんだ」<br>“我不擅长拍照”<br>でもそんなものはいらないわ<br>但那种事情其实无关紧要<br>あなたが焼きついたまま<br>你的身影已经烙在<br>私の心のプロジェクター<br>我心中的放映机里<br>寂しくないふりしてた<br>都假装着自己并不孤独<br>まあ、そんなのお互い様か<br>嘛，我们就是那样<br>誰かを求めることは<br>如果谁去找了对方<br>即ち傷つくことだった<br>就会徒增伤痕</p>
+<p>Oh, can you give me one last kiss？<br>燃えるようなキスをしよう<br>来一个火热的吻吧<br>忘れたくても<br>火热到即使想忘<br>忘れられないほど<br>也难以忘怀</p>
+<p>Oh oh oh oh oh…<br>I love you more than you’ll ever know<br>Oh oh oh oh oh…<br>I love you more than you’ll ever know</p>
+<p>もう分かっているよ<br>我已经明白了<br>この世の終わりでも<br>就算这个世界走向终结<br>年をとっても<br>就算年龄渐长<br>忘れられない人<br>你也是我无法忘记的人</p>
+<p>Oh oh oh oh oh…<br>忘れられない人<br>无法忘记的人<br>Oh oh oh oh oh…<br>I love you more than you’ll ever know<br>Oh oh oh oh oh…<br>忘れられない人<br>无法忘记的人<br>Oh oh oh oh oh…<br>I love you more than you’ll ever know</p>
+<p>吹いていった風の後を<br>可曾记得   追寻着流风的<br>追いかけた　眩しい午後<br>那个明媚晃眼的午后</p>
+]]></content>
+      <categories>
+        <category>アニメシェア</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>先生からの推薦書頂きました！</title>
+    <url>/2022/07/06/tuijian/</url>
+    <content><![CDATA[<p>As Zhang Huanming’s undergraduate advisor, I have instructed him to complete his university studies and academic graduation thesis.</p>
+<p>Zhang huanming always has strong ambitions and works hard for them. Once he set a goal to strive for, he will be persistent until he succeeds. There was a period in his freshman year when he felt overwhelmed. However, he quickly found where to lay his passion after communicating with me, and began to focus on training his programming ability and explore his love for video and media. Soon after, Zhang Huanming chose to study Digital Media Technology, and got excellent grades in professional courses, such as Introductory Digital Media Technology. After deciding on pursuing further education in Japan, he also obtained the foreign language proficiency certifications in both Japanese and English within one year.</p>
+<p>Zhang Huanming also has the courage to keep on trying without fear of failure. In the second-year English Listening &amp; Speaking courses, he did not shy away from delivering presentations in public despite the nervousness. Instead, he practiced hard and eventually felt ease with presentation. He insisted that he would rather be wrong than do nothing, and that success happens after failed attempts. It was this spirit of learning that got him a score of 91 out of 100 in the Workplace English course in his junior year.</p>
+<p>The most outstanding quality that Zhang Huanming possesses is that he is keen on improving and applying the skills learned into real projects. For example, in the third year of university, students were asked to complete the development of a 3D game using the Unity software for an assignment from the Multi-media Interactive Computer Design course. There were only two members in Zhang Huanming’s group, so he had to learn modeling and animation effects besides finishing the coding by himself. Additionally, he is also interested in the UI design of software, and he often goes online to study design theories. And he has successfully developed multiple applications catering to various needs, during which process he combined programming technology and did everything himself from interface design all the way to background logic development. It has laid a solid foundation for the off-campus internship in the senior year and the employment after graduation.</p>
+<p>The research direction of Zhang Huanming’s graduation thesis is “Application of Internet Technology in Medical Field”. Under my instruction, he has had remarkable performance on this topic through his independent research of relevant materials, analysis of competing products on the market, step-by-step revision and refinement of his ideas. At the same time, he often participated in various APP production projects during his school days. Aiming to develop excellent practical applications, his accomplishments have covered education, entertainment, finance and other aspects, which can be seen from his research results. Moreover, Zhang Huanming stays passionate about the visual representation of data, as how to present it intuitively to customers is what he wants to achieve.</p>
+<p>In view of the above, I would like to recommend Zhang Huanming to your laboratory. With the opportunity to further study and develop in the good academic environment and research atmosphere of your university, I am convinced that he will be a valuable asset not only to his field of study, but also to academics and society. </p>
+<p>I sincerely encourage you to look favorably upon his application.</p>
+]]></content>
+      <categories>
+        <category>ブログ</category>
+      </categories>
+      <tags>
+        <tag>東大</tag>
+        <tag>推薦書</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>新型コロナウイルスに関するQ&amp;A（一般の方向け）</title>
+    <url>/2022/07/06/korona/</url>
+    <content><![CDATA[<hr>
+<p>１．政府の方針<br>問１　新型コロナウイルス感染症に関して、どのような取り組みを行っているのですか。<br>　ワクチン接種、検査、治療薬等の普及による予防、発見から早期治療までの流れをさらに強化するとともに、最悪の事態を想定した対応を進めております。<br>　具体的には、デルタ株への置き換わり等による令和３年夏のピーク時における急速な感染拡大に学び、今後、感染力が２倍（若年者のワクチン接種が70％まで進展し、それ以外の条件が令和３年夏と同一である場合と比較し、新たな変異株の流行や生活行動の変化等による、「令和３年夏の実質２倍程度の感染拡大が起こるような状況」）となった場合にも対応できるよう、医療提供体制の強化、ワクチン接種の促進、治療薬の確保を進めています。<br>　こうした取組により、重症化する患者数が抑制され、病床ひっ迫がこれまでより生じにくくなれば、感染拡大が生じても、国民の命と健康を損なう事態を回避することが可能となります。感染リスクを引き下げながら経済社会活動の継続を可能とする新たな日常の実現を図ります。<br>　その上で、感染力が２倍を大きく超え、例えば感染力が３倍となり、医療がひっ迫するなど、それ以上の感染拡大が生じた場合には、強い行動制限を機動的に国民に求めるとともに、国の責任において、コロナ以外の通常医療の制限の下、緊急的な病床等を確保するための具体的措置を講じます。</p>
+<p>　令和３年９月以降、急速に減少に転じた新規感染者数は、同年12月下旬以降再び増加傾向となり、令和４年１月には新規感染者数の急速な増加に伴い、療養者数と重症者数も増加傾向が見受けられたため、新型インフルエンザ等対策特別措置法第31条の４第１項に基づき、同年１月９日以降、一部の都道府県において、まん延防止等重点措置を実施しました。その後、多くの地域で新規感染者数が減少傾向となり、医療提供体制への負荷の軽減が見られることなどから、３月21日をもって、全ての都道府県でまん延防止等重点措置を終了しました。<br>　まん延防止等重点措置を終了した地域を含め、学校、保育所、高齢者施設等における対策を強化した上で、引き続き、オミクロン株の特徴を踏まえた対策を実施することとしています。さらに、今後、感染が再拡大した場合に備え、保健医療提供体制の強化、ワクチン接種の促進、検査体制の強化、治療薬の更なる確保、濃厚接触者の特定や待機期間の在り方の見直し等の対策を講じていくこととしています。</p>
+<p>　まん延防止等重点措置の終了に当たり、感染再拡大を防ぐため、国民の皆さまにお願いする取組等については、以下のリンクをご覧ください。<br>【基本的対処方針に基づく対応】<br><a href="https://corona.go.jp/emergency/">https://corona.go.jp/emergency/</a></p>
+<p>また、オミクロン株の特徴を踏まえた感染防止策については、以下のリンクをご覧ください。<br><a href="https://corona.go.jp/emergency/#omicron">https://corona.go.jp/emergency/#omicron</a></p>
+<p>　まん延防止等重点措置終了後にお願いする具体的な対策の内容等については、各都道府県や自治体のウェブサイト等もご覧ください。</p>
+<p>【次の感染拡大に向けた安心確保のための取組の全体像】<br>（概要）<br><a href="https://corona.go.jp/expert-meeting/pdf/kihon_r_031112_1.pdf">https://corona.go.jp/expert-meeting/pdf/kihon_r_031112_1.pdf</a><br>（全文）<br><a href="https://corona.go.jp/expert-meeting/pdf/kihon_r_031112_2.pdf">https://corona.go.jp/expert-meeting/pdf/kihon_r_031112_2.pdf</a></p>
+<p>【国民の仕事や生活の安定・安心を支える日常生活の回復】<br><a href="https://corona.go.jp/package/">https://corona.go.jp/package/</a></p>
+<p>ページの先頭へ戻る</p>
+<p>問２　新型コロナウイルス感染防止を日常生活に取り入れた「新しい生活様式」とは何ですか。<br>　長期間にわたって感染拡大を防ぐために、飛沫感染や接触感染、さらには近距離での会話への対策を、これまで以上に日常生活に定着させ、持続させなければなりません。それを「新しい生活様式」と呼ぶこととし、具体的な実践例は以下にある通りです。<br>　なお、実践例については、令和２年５月４日に新型コロナウイルス感染症専門家会議から提言があった以降も、移動自粛の緩和や、夏場の熱中症対策との両立などの記載内容を更新しております。</p>
+]]></content>
+      <categories>
+        <category>コロナ</category>
+        <category>政府</category>
+        <category>厚生労働省</category>
+      </categories>
+      <tags>
+        <tag>コロナ</tag>
+        <tag>厚生労働省</tag>
+      </tags>
+  </entry>
+</search>
