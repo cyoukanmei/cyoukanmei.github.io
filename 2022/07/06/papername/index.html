@@ -6,12 +6,12 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>happy birthday to me - 今日の私</title>
+  <title>一文教会你如何搭建个人hexo博客 - 今日の私</title>
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="google" content="notranslate" />
   
-  <meta name="description" content="Today is my birthday,and I ...">
+  <meta name="description" content="写在前面的话很早以前就想要搭建一个个人的博客，奈何只是...">
   <meta name="author" content="John Doe">
   <link rel="icon" href="/images/icons/favicon-16x16.png" type="image/png" sizes="16x16">
   <link rel="icon" href="/images/icons/favicon-32x32.png" type="image/png" sizes="32x32">
@@ -152,7 +152,7 @@
       
       
     </div>
-    <div class="center">happy birthday to me</div>
+    <div class="center">一文教会你如何搭建个人hexo博客</div>
     <div class="right">
       <i class="iconfont iconmenu j-navbar-menu"></i>
     </div>
@@ -194,20 +194,60 @@
       <div class="col-xl-6"><article class="article">
   <div class="wrap">
     <section class="head">
-  <img   class="lazyload" data-original="/images/theme/3.jpg" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  draggable="false">
+  <img   class="lazyload" data-original="/images/theme/post-image.jpg" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  draggable="false">
   <div class="head-mask">
-    <h1 class="head-title">happy birthday to me</h1>
+    <h1 class="head-title">一文教会你如何搭建个人hexo博客</h1>
     <div class="head-info">
       <span class="post-info-item"><i class="iconfont iconcalendar"></i>July 06, 2022</span>
       
-      <span class="post-info-item"><i class="iconfont iconfont-size"></i>77</span>
+      <span class="post-info-item"><i class="iconfont iconfont-size"></i>1734</span>
     </div>
   </div>
 </section>
     <section class="main">
       <section class="content">
         
-        <p>Today is my birthday,and I know no one will say “happy birthday,mei]” to me.</p>
+        <p>写在前面的话<br>很早以前就想要搭建一个个人的博客，奈何只是一个前端切图仔，对于后端和数据库接口上手存在一定的难度，于是一拖拖了很久，今天无意中发现了使用Hexo搭建个人博客很快就能用了，而且托管在github平台也不需要自己去买服务器域名和维护，一举数得，非常nice，记录了一下搭建Hexo个人博客的步骤，尽可能的写的详细一点~</p>
+<p>准备工作步骤<br>1：GitHub上面新建一个仓库，用来放自己的博客<br>2：安装git工具，生成SSH添加到GitHub<br>3：本地环境搭建，安装node 和npm<br>4：本地初始化Hexo项目并且运行<br>5：Hexo主题<br>6：部署到github<br>7：生成markdown文件，写文章并且发布</p>
+<p>言归正传，开始我们的写作步骤吧</p>
+<p>一：在GitHub上面新建一个仓库，用来放自己的博客<br>1：新建一个仓库<br>创建一个和你用户名相同的仓库，后面加.github.io后缀，必须要同名哦，不然后面会出现页面404的情况，点击create respository按钮创建。</p>
+<p>2：安装git工具，生成SSH添加到GitHub<br>安装git工具这里就不多说了，安装完成之后，在桌面上git bash进入命令行，输入GitHub用户名和邮箱验证。</p>
+<p>查看输入是否正确</p>
+<p>3：然后创建SSH，一路回车</p>
+<p>这个时候可以看到在磁盘里面生成了私人密钥和公共密钥了</p>
+<p>4：在GitHub上设置密钥<br>在GitHub的setting中，找到Deploy keys的设置选项，点击新建一个密钥，把id_rsa.pub里面的信息复制进去，id_rsa.pub打开方式可以使用浏览器打开。</p>
+<p>新建密钥成功，到这里github仓库和密钥问题就OK了。</p>
+<p>二：Hexo搭建个人博客-框架的本地安装和运行<br>1：Hexo的官网<br><a target="_blank" rel="noopener" href="https://hexo.io/">https://hexo.io/</a></p>
+<p>2：安装node 和npm<br>hexo基于node.js，本地需要安装node 和npm，安装步骤就不多说了<br>查看一下是否有版本号，有的话则安装成功。</p>
+<p>3：全局安装 hexo</p>
+<p>4：初始化一个项目</p>
+<p>这时候可以看到在d盘里面生成了一个文件夹。</p>
+<p>5：进入项目文件夹，安装依赖文件</p>
+<p>6：运行，并且在浏览器打开，就可以看到博客页面了</p>
+<p><a target="_blank" rel="noopener" href="http://localhost:4000/">http://localhost:4000</a></p>
+<p>三：更换一个自己喜欢的主题<br>1：博客主题的安装<br>主题这一块可以选择自己喜欢的，以下是以一个Anisina主题为例，这里有很多主题可以选择：传送门：<a target="_blank" rel="noopener" href="https://hexo.io/themes/%E3%80%82%E6%AF%94%E5%A6%82%E9%80%89%E4%B8%80%E4%B8%AA%E4%B8%BB%E9%A2%98%EF%BC%9Ahttps://github.com/haojen/hexo-theme-Anisina%EF%BC%8C%E6%89%93%E5%BC%80%E9%93%BE%E6%8E%A5%EF%BC%8C%E8%BF%9B%E5%85%A5%E5%88%B0GitHub%E9%87%8C%E9%9D%A2%EF%BC%8C%E6%9C%89%E8%AF%A6%E7%BB%86%E7%9A%84%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B%E3%80%82">https://hexo.io/themes/。比如选一个主题：https://github.com/haojen/hexo-theme-Anisina，打开链接，进入到GitHub里面，有详细的安装教程。</a></p>
+<p>2：安装主题命令输入</p>
+<p>3：打开_config.yml文件夹，更改主题名字</p>
+<p>4：再次启动，就可以看到更换的主题了。</p>
+<p>OK，搭建好了自己喜欢的主题风格了，接下来需要部署了。</p>
+<p>四. 部署到github<br>1：在配置文件里面填写仓库地址<br>在项目里面找到 _congif.yml文件，找到 deploy 字段，把以下代码放进去，填写第一步新建的仓库地址。</p>
+<p>2：安装一个推送工具，将本地项目推到仓库上。</p>
+<p>3：然后执行以下命令<br>清除了你之前生成的东西，也可以不加。</p>
+<p>4：hexo generate 生成静态文件，可以用 hexo g缩写</p>
+<p>可以看到在目录里面生成了一个静态的文件，生成好的public文件夹就直接当成静态网站进行部署即可。</p>
+<p>5： 部署</p>
+<p>注意这里需要输入GitHub用户名和密码哦</p>
+
+
+
+<p>6：查看仓库，已经将项目放在仓库里面了</p>
+<p>这个时候就可以访问了，已经把静态文件都托管在GitHub了，查看分配的地址：<a target="_blank" rel="noopener" href="https://wangxiaoting666.github.io/">https://wangxiaoting666.github.io/</a></p>
+<p>五：开始写文章<br>1：新建一个markdown文件</p>
+<p>在source_posts里面生成了markdown文件夹，用来写文章了，记住要使用markdown格式书写文章博客。</p>
+<p>2：当你写完的时候，再输入命令</p>
+<p>就可以看到新增的自己的文章了</p>
+<p>3：如果要再写一篇，可以再生成一个md文件进行书写</p>
+<p>4：好了，自己的博客搭建起来了，后面会慢慢的往里面增加一些文章，以及接入评论系统，统计文章阅读量，代码高亮，图床等功能。</p>
 
       </section>
       <section class="extra">
@@ -215,7 +255,7 @@
           <ul class="copyright">
   
     <li><strong>本文作者：</strong>John Doe</li>
-    <li><strong>本文链接：</strong><a href="http://example.com/2022/07/06/hello-world/index.html" title="http:&#x2F;&#x2F;example.com&#x2F;2022&#x2F;07&#x2F;06&#x2F;hello-world&#x2F;index.html">http:&#x2F;&#x2F;example.com&#x2F;2022&#x2F;07&#x2F;06&#x2F;hello-world&#x2F;index.html</a></li>
+    <li><strong>本文链接：</strong><a href="http://example.com/2022/07/06/papername/index.html" title="http:&#x2F;&#x2F;example.com&#x2F;2022&#x2F;07&#x2F;06&#x2F;papername&#x2F;index.html">http:&#x2F;&#x2F;example.com&#x2F;2022&#x2F;07&#x2F;06&#x2F;papername&#x2F;index.html</a></li>
     <li><strong>版权声明：</strong>本博客所有文章均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" title="BY-NC-SA" target="_blank" rel="noopener">BY-NC-SA</a> 许可协议，转载请注明出处！</li>
   
 </ul>
@@ -232,12 +272,10 @@
 </section>
         
         
-  <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/birthday-lonely/" rel="tag">birthday lonely;</a></li></ul> 
-
         
   <nav class="nav">
-    <a href="/2022/07/06/papername/"><i class="iconfont iconleft"></i>一文教会你如何搭建个人hexo博客</a>
-    <a></a>
+    <a href="/2022/07/08/article-title/"><i class="iconfont iconleft"></i>article title</a>
+    <a href="/2022/07/06/hello-world/">happy birthday to me<i class="iconfont iconright"></i></a>
   </nav>
 
       </section>
