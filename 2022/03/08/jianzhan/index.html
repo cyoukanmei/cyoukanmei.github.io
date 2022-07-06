@@ -1,0 +1,424 @@
+
+
+<!DOCTYPE html>
+<html lang="en" color-mode=light>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>一文教会你如何搭建个人hexo博客 - 今日の私</title>
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="google" content="notranslate" />
+  
+  <meta name="description" content="写在前面的话很早以前就想要搭建一个个人的博客，奈何只是...">
+  <meta name="author" content="John Doe">
+  <link rel="icon" href="/images/icons/favicon-16x16.png" type="image/png" sizes="16x16">
+  <link rel="icon" href="/images/icons/favicon-32x32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="/images/icons/apple-touch-icon.png" sizes="180x180">
+  <meta rel="mask-icon" href="/images/icons/stun-logo.svg" color="#333333">
+  
+    <meta rel="msapplication-TileImage" content="/images/icons/favicon-144x144.png">
+    <meta rel="msapplication-TileColor" content="#000000">
+  
+
+  
+<link rel="stylesheet" href="/css/style.css">
+
+
+  
+    
+<link rel="stylesheet" href="https://at.alicdn.com/t/font_1445822_p6ry5n7lrr.css">
+
+  
+
+  
+    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+
+  
+
+  
+    
+      
+        
+        
+<link rel="stylesheet" href="https://cdn.bootcss.com/highlight.js/9.18.1/styles/xcode.min.css" name="highlight-style" mode="light">
+
+      
+        
+        
+<link rel="stylesheet" href="https://cdn.bootcss.com/highlight.js/9.18.1/styles/solarized-dark.min.css" name="highlight-style" mode="dark">
+
+      
+  
+
+  <script>
+    var CONFIG = window.CONFIG || {};
+    var ZHAOO = window.ZHAOO || {};
+    CONFIG = {
+      isHome: false,
+      fancybox: true,
+      pjax: false,
+      loading: {
+        gif: '/images/theme/loading.gif',
+        lottie: ''
+      },
+      lazyload: {
+        enable: true,
+        only_post: 'false',
+        loading: {
+          gif: '/images/theme/loading.gif',
+          lottie: ''
+        }
+      },
+      donate: {
+        enable: true,
+        alipay: 'https://pic.izhaoo.com/alipay.jpg',
+        wechat: 'https://pic.izhaoo.com/wechat.jpg'
+      },
+      galleries: {
+        enable: true
+      },
+      fab: {
+        enable: true,
+        always_show: false
+      },
+      carrier: {
+        enable: false
+      },
+      daovoice: {
+        enable: false
+      },
+      preview: {
+        background: {
+          default: '',
+          api: ''
+        },
+        motto: {
+          default: '今日もお疲れさまでした。',
+          typing: true,
+          api: '',
+          data_contents: '["data","content"]'
+        },
+      },
+      qrcode: {
+        enable: true,
+        type: 'url',
+        image: 'https://pic.izhaoo.com/weapp-code.jpg',
+      },
+      toc: {
+        enable: true
+      },
+      scrollbar: {
+        type: 'default'
+      },
+      notification: {
+        enable: false,
+        delay: 4500,
+        list: '',
+        page_white_list: '',
+        page_black_list: ''
+      },
+      search: {
+        enable: false,
+        path: '/search.xml'
+      }
+    }
+  </script>
+
+  
+
+  
+
+<meta name="generator" content="Hexo 6.2.0"></head>
+
+<body class="lock-screen">
+  <div class="loading" id="loading"></div>
+  
+    
+
+
+  <nav class="navbar">
+    <div class="left">
+      
+        <i class="iconfont iconhome j-navbar-back-home"></i>
+      
+      
+        <i class="iconfont iconqrcode j-navbar-qrcode"></i>
+      
+      
+        <i class="iconfont iconmoono" id="color-toggle" color-toggle="light"></i>
+      
+      
+    </div>
+    <div class="center">一文教会你如何搭建个人hexo博客</div>
+    <div class="right">
+      <i class="iconfont iconmenu j-navbar-menu"></i>
+    </div>
+    
+      <div id="qrcode-navbar"></div>
+    
+  </nav>
+
+  
+  
+
+<nav class="menu">
+  <div class="menu-container">
+    <div class="menu-close">
+      <i class="iconfont iconbaseline-close-px"></i>
+    </div>
+    <ul class="menu-content"><li class="menu-item">
+        <a href="/ " class="underline "> home</a>
+      </li><li class="menu-item">
+        <a href="/galleries " class="underline "> galleries</a>
+      </li><li class="menu-item">
+        <a href="/archives " class="underline "> archives</a>
+      </li><li class="menu-item">
+        <a href="/tags " class="underline "> tags</a>
+      </li><li class="menu-item">
+        <a href="/categories " class="underline "> categories</a>
+      </li><li class="menu-item">
+        <a href="/about " class="underline "> about</a>
+      </li></ul>
+    
+      <div class="menu-copyright"><p>Powered by <a target="_blank" href="https://hexo.io">Hexo</a>  |  Theme - <a target="_blank" href="https://github.com/izhaoo/hexo-theme-zhaoo">zhaoo</a></p></div>
+    
+  </div>
+</nav>
+  <main id="main">
+  <div class="article-wrap">
+    <div class="row container">
+      <div class="col-xl-3"></div>
+      <div class="col-xl-6"><article class="article">
+  <div class="wrap">
+    <section class="head">
+  <img   class="lazyload" data-original="/images/theme/post-image.jpg" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  draggable="false">
+  <div class="head-mask">
+    <h1 class="head-title">一文教会你如何搭建个人hexo博客</h1>
+    <div class="head-info">
+      <span class="post-info-item"><i class="iconfont iconcalendar"></i>March 08, 2022</span>
+      
+      <span class="post-info-item"><i class="iconfont iconfont-size"></i>1734</span>
+    </div>
+  </div>
+</section>
+    <section class="main">
+      <section class="content">
+        
+        <p>写在前面的话<br>很早以前就想要搭建一个个人的博客，奈何只是一个前端切图仔，对于后端和数据库接口上手存在一定的难度，于是一拖拖了很久，今天无意中发现了使用Hexo搭建个人博客很快就能用了，而且托管在github平台也不需要自己去买服务器域名和维护，一举数得，非常nice，记录了一下搭建Hexo个人博客的步骤，尽可能的写的详细一点~</p>
+<p>准备工作步骤<br>1：GitHub上面新建一个仓库，用来放自己的博客<br>2：安装git工具，生成SSH添加到GitHub<br>3：本地环境搭建，安装node 和npm<br>4：本地初始化Hexo项目并且运行<br>5：Hexo主题<br>6：部署到github<br>7：生成markdown文件，写文章并且发布</p>
+<p>言归正传，开始我们的写作步骤吧</p>
+<p>一：在GitHub上面新建一个仓库，用来放自己的博客<br>1：新建一个仓库<br>创建一个和你用户名相同的仓库，后面加.github.io后缀，必须要同名哦，不然后面会出现页面404的情况，点击create respository按钮创建。</p>
+<p>2：安装git工具，生成SSH添加到GitHub<br>安装git工具这里就不多说了，安装完成之后，在桌面上git bash进入命令行，输入GitHub用户名和邮箱验证。</p>
+<p>查看输入是否正确</p>
+<p>3：然后创建SSH，一路回车</p>
+<p>这个时候可以看到在磁盘里面生成了私人密钥和公共密钥了</p>
+<p>4：在GitHub上设置密钥<br>在GitHub的setting中，找到Deploy keys的设置选项，点击新建一个密钥，把id_rsa.pub里面的信息复制进去，id_rsa.pub打开方式可以使用浏览器打开。</p>
+<p>新建密钥成功，到这里github仓库和密钥问题就OK了。</p>
+<p>二：Hexo搭建个人博客-框架的本地安装和运行<br>1：Hexo的官网<br><a target="_blank" rel="noopener" href="https://hexo.io/">https://hexo.io/</a></p>
+<p>2：安装node 和npm<br>hexo基于node.js，本地需要安装node 和npm，安装步骤就不多说了<br>查看一下是否有版本号，有的话则安装成功。</p>
+<p>3：全局安装 hexo</p>
+<p>4：初始化一个项目</p>
+<p>这时候可以看到在d盘里面生成了一个文件夹。</p>
+<p>5：进入项目文件夹，安装依赖文件</p>
+<p>6：运行，并且在浏览器打开，就可以看到博客页面了</p>
+<p><a target="_blank" rel="noopener" href="http://localhost:4000/">http://localhost:4000</a></p>
+<p>三：更换一个自己喜欢的主题<br>1：博客主题的安装<br>主题这一块可以选择自己喜欢的，以下是以一个Anisina主题为例，这里有很多主题可以选择：传送门：<a target="_blank" rel="noopener" href="https://hexo.io/themes/%E3%80%82%E6%AF%94%E5%A6%82%E9%80%89%E4%B8%80%E4%B8%AA%E4%B8%BB%E9%A2%98%EF%BC%9Ahttps://github.com/haojen/hexo-theme-Anisina%EF%BC%8C%E6%89%93%E5%BC%80%E9%93%BE%E6%8E%A5%EF%BC%8C%E8%BF%9B%E5%85%A5%E5%88%B0GitHub%E9%87%8C%E9%9D%A2%EF%BC%8C%E6%9C%89%E8%AF%A6%E7%BB%86%E7%9A%84%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B%E3%80%82">https://hexo.io/themes/。比如选一个主题：https://github.com/haojen/hexo-theme-Anisina，打开链接，进入到GitHub里面，有详细的安装教程。</a></p>
+<p>2：安装主题命令输入</p>
+<p>3：打开_config.yml文件夹，更改主题名字</p>
+<p>4：再次启动，就可以看到更换的主题了。</p>
+<p>OK，搭建好了自己喜欢的主题风格了，接下来需要部署了。</p>
+<p>四. 部署到github<br>1：在配置文件里面填写仓库地址<br>在项目里面找到 _congif.yml文件，找到 deploy 字段，把以下代码放进去，填写第一步新建的仓库地址。</p>
+<p>2：安装一个推送工具，将本地项目推到仓库上。</p>
+<p>3：然后执行以下命令<br>清除了你之前生成的东西，也可以不加。</p>
+<p>4：hexo generate 生成静态文件，可以用 hexo g缩写</p>
+<p>可以看到在目录里面生成了一个静态的文件，生成好的public文件夹就直接当成静态网站进行部署即可。</p>
+<p>5： 部署</p>
+<p>注意这里需要输入GitHub用户名和密码哦</p>
+
+
+
+<p>6：查看仓库，已经将项目放在仓库里面了</p>
+<p>这个时候就可以访问了，已经把静态文件都托管在GitHub了，查看分配的地址：<a target="_blank" rel="noopener" href="https://wangxiaoting666.github.io/">https://wangxiaoting666.github.io/</a></p>
+<p>五：开始写文章<br>1：新建一个markdown文件</p>
+<p>在source_posts里面生成了markdown文件夹，用来写文章了，记住要使用markdown格式书写文章博客。</p>
+<p>2：当你写完的时候，再输入命令</p>
+<p>就可以看到新增的自己的文章了</p>
+<p>3：如果要再写一篇，可以再生成一个md文件进行书写</p>
+<p>4：好了，自己的博客搭建起来了，后面会慢慢的往里面增加一些文章，以及接入评论系统，统计文章阅读量，代码高亮，图床等功能。</p>
+
+      </section>
+      <section class="extra">
+        
+        
+          <section class="donate">
+  <div id="qrcode-donate">
+    <img   class="lazyload" data-original="https://pic.izhaoo.com/alipay.jpg" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==" >
+  </div>
+  <div class="icon">
+    <a href="javascript:;" id="alipay"><i class="iconfont iconalipay"></i></a>
+    <a href="javascript:;" id="wechat"><i class="iconfont iconwechat-fill"></i></a>
+  </div>
+</section>
+        
+        
+  <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Hexo/" rel="tag">Hexo</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E3%83%86%E3%82%AF%E3%83%8E%E3%83%AD%E3%82%B8%E3%83%BC/" rel="tag">テクノロジー</a></li></ul> 
+
+        
+  <nav class="nav">
+    <a href="/2022/06/18/tuijian/"><i class="iconfont iconleft"></i>先生からの推薦書頂きました！</a>
+    <a href="/2022/01/08/one%20last%20kiss/">one last kiss<i class="iconfont iconright"></i></a>
+  </nav>
+
+      </section>
+      
+        <section class="comments">
+  
+    <div class="btn" id="comments-btn">查看评论</div>
+  
+  
+</section>
+      
+    </section>
+  </div>
+</article></div>
+      <div class="col-xl-3">
+        
+          
+  <aside class="toc-wrap">
+    <h3 class="toc-title">文章目录：</h3>
+    
+  </aside>
+
+        
+      </div>
+    </div>
+  </div>
+</main>
+  
+
+<footer class="footer">
+  <div class="footer-social"><a 
+        href="tencent://message/?Menu=yes&uin=1228592999 "
+        target="_blank"
+        class="footer-social-item"
+        onMouseOver="this.style.color= '#12B7F5'" 
+        onMouseOut="this.style.color='#33333D'">
+          <i class="iconfont  iconQQ "></i>
+      </a><a 
+        href="javascript:; "
+        target="_blank"
+        class="footer-social-item"
+        onMouseOver="this.style.color= '#09BB07'" 
+        onMouseOut="this.style.color='#33333D'">
+          <i class="iconfont  iconwechat-fill "></i>
+      </a><a 
+        href="https://www.instagram.com/cyoukanmei/ "
+        target="_blank"
+        class="footer-social-item"
+        onMouseOver="this.style.color= '#DA2E76'" 
+        onMouseOut="this.style.color='#33333D'">
+          <i class="iconfont  iconinstagram "></i>
+      </a><a 
+        href="https://github.com/cyoukanmei?tab=repositories "
+        target="_blank"
+        class="footer-social-item"
+        onMouseOver="this.style.color= '#9f7be1'" 
+        onMouseOut="this.style.color='#33333D'">
+          <i class="iconfont  icongithub-fill "></i>
+      </a><a 
+        href="mailto:m1228592999@gmail.com "
+        target="_blank"
+        class="footer-social-item"
+        onMouseOver="this.style.color=#FF3B00" 
+        onMouseOut="this.style.color='#33333D'">
+          <i class="iconfont  iconmail"></i>
+      </a></div>
+  
+    <div class="footer-copyright"><p>Powered by <a target="_blank" href="https://hexo.io">Hexo</a>  |  Theme - <a target="_blank" href="https://github.com/izhaoo/hexo-theme-zhaoo">zhaoo</a></p></div>
+  
+</footer>
+  
+      <div class="fab fab-plus">
+    <i class="iconfont iconplus"></i>
+  </div>
+  
+  
+  
+  <div class="fab fab-up">
+    <i class="iconfont iconcaret-up"></i>
+  </div>
+  
+  
+  
+    
+<script src="/js/color-mode.js"></script>
+
+  
+  
+</body>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+
+
+
+  
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
+
+
+
+
+  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+
+
+
+
+
+
+  
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery.qrcode/1.0/jquery.qrcode.min.js"></script>
+
+
+
+
+<script src="/js/utils.js"></script>
+<script src="/js/script.js"></script>
+
+
+
+
+
+
+
+  <script>
+    (function () {
+      var bp = document.createElement('script');
+      var curProtocol = window.location.protocol.split(':')[0];
+      if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+      } else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+      }
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(bp, s);
+    })();
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

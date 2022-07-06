@@ -1,0 +1,395 @@
+
+
+<!DOCTYPE html>
+<html lang="en" color-mode=light>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>game centre - 今日の私</title>
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="google" content="notranslate" />
+  
+  <meta name="description" content="龙江时时彩开发文档
+界面；新增界面；1.0注册界面
+注...">
+  <meta name="author" content="John Doe">
+  <link rel="icon" href="/images/icons/favicon-16x16.png" type="image/png" sizes="16x16">
+  <link rel="icon" href="/images/icons/favicon-32x32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="/images/icons/apple-touch-icon.png" sizes="180x180">
+  <meta rel="mask-icon" href="/images/icons/stun-logo.svg" color="#333333">
+  
+    <meta rel="msapplication-TileImage" content="/images/icons/favicon-144x144.png">
+    <meta rel="msapplication-TileColor" content="#000000">
+  
+
+  
+<link rel="stylesheet" href="/css/style.css">
+
+
+  
+    
+<link rel="stylesheet" href="https://at.alicdn.com/t/font_1445822_p6ry5n7lrr.css">
+
+  
+
+  
+    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+
+  
+
+  
+    
+      
+        
+        
+<link rel="stylesheet" href="https://cdn.bootcss.com/highlight.js/9.18.1/styles/xcode.min.css" name="highlight-style" mode="light">
+
+      
+        
+        
+<link rel="stylesheet" href="https://cdn.bootcss.com/highlight.js/9.18.1/styles/solarized-dark.min.css" name="highlight-style" mode="dark">
+
+      
+  
+
+  <script>
+    var CONFIG = window.CONFIG || {};
+    var ZHAOO = window.ZHAOO || {};
+    CONFIG = {
+      isHome: false,
+      fancybox: true,
+      pjax: false,
+      loading: {
+        gif: '/images/theme/loading.gif',
+        lottie: ''
+      },
+      lazyload: {
+        enable: true,
+        only_post: 'false',
+        loading: {
+          gif: '/images/theme/loading.gif',
+          lottie: ''
+        }
+      },
+      donate: {
+        enable: true,
+        alipay: 'https://pic.izhaoo.com/alipay.jpg',
+        wechat: 'https://pic.izhaoo.com/wechat.jpg'
+      },
+      galleries: {
+        enable: true
+      },
+      fab: {
+        enable: true,
+        always_show: false
+      },
+      carrier: {
+        enable: false
+      },
+      daovoice: {
+        enable: false
+      },
+      preview: {
+        background: {
+          default: '',
+          api: ''
+        },
+        motto: {
+          default: '今日もお疲れさまでした。',
+          typing: true,
+          api: '',
+          data_contents: '["data","content"]'
+        },
+      },
+      qrcode: {
+        enable: true,
+        type: 'url',
+        image: 'https://pic.izhaoo.com/weapp-code.jpg',
+      },
+      toc: {
+        enable: true
+      },
+      scrollbar: {
+        type: 'default'
+      },
+      notification: {
+        enable: false,
+        delay: 4500,
+        list: '',
+        page_white_list: '',
+        page_black_list: ''
+      },
+      search: {
+        enable: false,
+        path: '/search.xml'
+      }
+    }
+  </script>
+
+  
+
+  
+
+<meta name="generator" content="Hexo 6.2.0"></head>
+
+<body class="lock-screen">
+  <div class="loading" id="loading"></div>
+  
+    
+
+
+  <nav class="navbar">
+    <div class="left">
+      
+        <i class="iconfont iconhome j-navbar-back-home"></i>
+      
+      
+        <i class="iconfont iconqrcode j-navbar-qrcode"></i>
+      
+      
+        <i class="iconfont iconmoono" id="color-toggle" color-toggle="light"></i>
+      
+      
+    </div>
+    <div class="center">game centre</div>
+    <div class="right">
+      <i class="iconfont iconmenu j-navbar-menu"></i>
+    </div>
+    
+      <div id="qrcode-navbar"></div>
+    
+  </nav>
+
+  
+  
+
+<nav class="menu">
+  <div class="menu-container">
+    <div class="menu-close">
+      <i class="iconfont iconbaseline-close-px"></i>
+    </div>
+    <ul class="menu-content"><li class="menu-item">
+        <a href="/ " class="underline "> home</a>
+      </li><li class="menu-item">
+        <a href="/galleries " class="underline "> galleries</a>
+      </li><li class="menu-item">
+        <a href="/archives " class="underline "> archives</a>
+      </li><li class="menu-item">
+        <a href="/tags " class="underline "> tags</a>
+      </li><li class="menu-item">
+        <a href="/categories " class="underline "> categories</a>
+      </li><li class="menu-item">
+        <a href="/about " class="underline "> about</a>
+      </li></ul>
+    
+      <div class="menu-copyright"><p>Powered by <a target="_blank" href="https://hexo.io">Hexo</a>  |  Theme - <a target="_blank" href="https://github.com/izhaoo/hexo-theme-zhaoo">zhaoo</a></p></div>
+    
+  </div>
+</nav>
+  <main id="main">
+  <div class="article-wrap">
+    <div class="row container">
+      <div class="col-xl-3"></div>
+      <div class="col-xl-6"><article class="article">
+  <div class="wrap">
+    <section class="head">
+  <img   class="lazyload" data-original="/images/theme/game%20centre.jpg" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  draggable="false">
+  <div class="head-mask">
+    <h1 class="head-title">game centre</h1>
+    <div class="head-info">
+      <span class="post-info-item"><i class="iconfont iconcalendar"></i>October 28, 2020</span>
+      
+      <span class="post-info-item"><i class="iconfont iconfont-size"></i>1884</span>
+    </div>
+  </div>
+</section>
+    <section class="main">
+      <section class="content">
+        
+        <p>龙江时时彩开发文档</p>
+<p>界面；<br>新增界面；<br>1.0注册界面</p>
+<p>注册界面 显示输入框账号，密码，登录以及注册  登录成功提示登录成功，登录失败提示登录失败 并提示账号或密码错误请重试，如果冻结提示账户已被冻结 请联系客服，注册界面同上图，输入框分为账号，密码 ，确认密码<br>2.0 点击底部导航栏我的</p>
+<p>我的界面分为 头像，我的游戏币，（头像为系统默认） 下设三个按钮 我的游戏历史，获取游戏币，结算游戏币，获取和结算跳转到后台设定好的QQ，跳转链接后台可自行设置，跳转链接 不一样 （可能会需要每一个都可以单独设置链接，因为可能要明确客户需求，点击获取跳转到获取客服，结算是结算客服）点击我的游戏历史后显示右1图，界面显示我的头像，下面每行显示，X年X月X日，压XX玩法 押注XXX游戏币  开奖结果为XXXXX 正或负XXX多少游戏币(可用+-表示) 字体正为红色，负为绿色  剩余XXX游戏币，  （如果充值也要显示在此界面 方式同上，X年X月获取游戏币XXX游戏币剩余XXXXX，提现同上，以及代理收益同上，还有每日的游戏币利息的结算同上  （游戏币利息每晚0晨增加）显示为今日游戏币利息为XXX游戏币 总游戏币为XXX）<br><em>增加显示，”X级代理”，后面加按钮详情  跳转到下文代理详情界面</em><br><em>增加按钮“我的师徒关系”点击之后跳转界面 显示他的徒弟（每一个徒弟的今日流水，以及总流水，最下方显示总流水，师徒关系最多2级  显示方式为 徒弟（徒孙）IDXXXXX今日流水XXX游戏币总流水XXX游戏币  今日分得XXX游戏币 总分得XXX游戏币    ）<br>最下方显示今日总分得XXX游戏币，总分得XXX游戏币，以及关闭按钮</em></p>
+<p>3.0开奖直播</p>
+<p>开奖直播位于任意界面右上角（…）位置  点击显示，开奖直播，玩法详情，代理详情（如果是代理，几级代理赔率不一样，在这里客户添加文章进行代理科普），<br>点击开奖直播  跳出滚动动画，提示开奖（开奖前1分钟软件自动播放提示音，开奖前1分钟截止下注，后台可设置开奖时间间隔（默认为8分钟开奖一次）），点击玩法详情跳转文章界面（用户后台自行输入玩法详情，请用户规避法律风险切勿提及钱的概念 游戏内所有金钱概念全部选择游戏币代替）<br>4.0押注界面</p>
+<p>界面顶部显示第XXX期开奖结果XXXXXX<br>距XXX期开奖时间为XXX，下注剩余时间为XXXX<br>（代理 和普通玩家的赔率不一样，所以显示的时候要判断是否为代理，几级代理，之后相应的显示客户后台设置的赔率，下文不表）<br>界面显示下拉框玩法，分为牛牛玩法，龙虎大小单双，德州扑克玩法，如下注截止之后进行下注者提示（已截止下注）</p>
+<p>上图里小图 根据下拉框玩法而变化，本图片显示为牛牛玩法  排版为牛（下拉框，下设数字0-9）<em>请参见第一页玩法</em>，输入框———用户可输入下注游戏币金额，下限为1，不可输入小数，后缀文字游戏币，下设确定按钮  用户输入完成金额后点击  提示见下图<br>下显示文字赔率：XXXXXX  根据后台设置赔率显示</p>
+<p>点击确定后提示下注明细  本次下注XXXX玩法  下注金额为XXX，合计游戏币XXXX  下设按钮确定，点击确定提示下注成功（或下注失败，余额不足，或其他原因）</p>
+<p>省略玩法参见第一页玩法<br>原有界面；<br>原有界面可参见重庆时时彩软件进行开发，功能可参见，删除免费计划页，并增加上述功能，图表走势 以及玩法下设，视开发情况酌情修改增删<br>充值提现；<br> 充值提现全人工操作  规避法律风险   具体参见界面（我的）<br>聊天室；<br> 聊天室功能可参照软件内聊天室，但所有聊天信息 做到后台里  后台可控，后台输入时间  以及对话  客户端根据时间排序显示，客户端用户说话  参见微信聊天，让他自己看得见 以为真的发出去了就可以<br>后台；<br>后台可设置所有赔率<br>可以设置聊天室聊天记录，参照上文<br>可自行设置，替换主界面滚动横幅图片<br>可自行设置，替换主界面滚动文字<br>后台有所有人下注 的详细记录 有据可依 以及每日的最终结余游戏币 赚了多少游戏币 每一笔下注的明细记录（详细监控日志）<br>可冻结任意账号 冻结之后 需要在用户APP上提示冻结信息<br>后台可设置 几级代理的不同赔率比  并且做好每个人不一样的邀请码 根据邀请码  识别是谁的下线<br>后台可设置X级代理的各项玩法的赔率，以及充值X元成为X级代理<br>后台可设置 每1000游戏币 每日利息为XXX游戏币  具体在客户端显示参照上文<br>更多细节；<br>可以叠加押注（可以不只压一种玩法）<br>所有显示开奖结果的地方 每个数字颜色不一样（球的颜色不一样）红橙黄绿青蓝紫等10种颜色  每个数字对应颜色不一样<br>需要增加玩法普及，参见上文</p>
+
+      </section>
+      <section class="extra">
+        
+        
+          <section class="donate">
+  <div id="qrcode-donate">
+    <img   class="lazyload" data-original="https://pic.izhaoo.com/alipay.jpg" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==" >
+  </div>
+  <div class="icon">
+    <a href="javascript:;" id="alipay"><i class="iconfont iconalipay"></i></a>
+    <a href="javascript:;" id="wechat"><i class="iconfont iconwechat-fill"></i></a>
+  </div>
+</section>
+        
+        
+  <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Java/" rel="tag">Java</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Spint/" rel="tag">Spint</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E3%82%A2%E3%83%97%E3%83%AA/" rel="tag">アプリ</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E3%82%B2%E3%83%BC%E3%83%A0/" rel="tag">ゲーム</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3/" rel="tag">デザイン</a></li></ul> 
+
+        
+  <nav class="nav">
+    <a href="/2021/11/28/color/"><i class="iconfont iconleft"></i>中国伝統的な色</a>
+    <a href="/2019/07/28/zuopin/">卒業作品<i class="iconfont iconright"></i></a>
+  </nav>
+
+      </section>
+      
+        <section class="comments">
+  
+    <div class="btn" id="comments-btn">查看评论</div>
+  
+  
+</section>
+      
+    </section>
+  </div>
+</article></div>
+      <div class="col-xl-3">
+        
+          
+  <aside class="toc-wrap">
+    <h3 class="toc-title">文章目录：</h3>
+    
+  </aside>
+
+        
+      </div>
+    </div>
+  </div>
+</main>
+  
+
+<footer class="footer">
+  <div class="footer-social"><a 
+        href="tencent://message/?Menu=yes&uin=1228592999 "
+        target="_blank"
+        class="footer-social-item"
+        onMouseOver="this.style.color= '#12B7F5'" 
+        onMouseOut="this.style.color='#33333D'">
+          <i class="iconfont  iconQQ "></i>
+      </a><a 
+        href="javascript:; "
+        target="_blank"
+        class="footer-social-item"
+        onMouseOver="this.style.color= '#09BB07'" 
+        onMouseOut="this.style.color='#33333D'">
+          <i class="iconfont  iconwechat-fill "></i>
+      </a><a 
+        href="https://www.instagram.com/cyoukanmei/ "
+        target="_blank"
+        class="footer-social-item"
+        onMouseOver="this.style.color= '#DA2E76'" 
+        onMouseOut="this.style.color='#33333D'">
+          <i class="iconfont  iconinstagram "></i>
+      </a><a 
+        href="https://github.com/cyoukanmei?tab=repositories "
+        target="_blank"
+        class="footer-social-item"
+        onMouseOver="this.style.color= '#9f7be1'" 
+        onMouseOut="this.style.color='#33333D'">
+          <i class="iconfont  icongithub-fill "></i>
+      </a><a 
+        href="mailto:m1228592999@gmail.com "
+        target="_blank"
+        class="footer-social-item"
+        onMouseOver="this.style.color=#FF3B00" 
+        onMouseOut="this.style.color='#33333D'">
+          <i class="iconfont  iconmail"></i>
+      </a></div>
+  
+    <div class="footer-copyright"><p>Powered by <a target="_blank" href="https://hexo.io">Hexo</a>  |  Theme - <a target="_blank" href="https://github.com/izhaoo/hexo-theme-zhaoo">zhaoo</a></p></div>
+  
+</footer>
+  
+      <div class="fab fab-plus">
+    <i class="iconfont iconplus"></i>
+  </div>
+  
+  
+  
+  <div class="fab fab-up">
+    <i class="iconfont iconcaret-up"></i>
+  </div>
+  
+  
+  
+    
+<script src="/js/color-mode.js"></script>
+
+  
+  
+</body>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+
+
+
+  
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
+
+
+
+
+  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+
+
+
+
+
+
+  
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery.qrcode/1.0/jquery.qrcode.min.js"></script>
+
+
+
+
+<script src="/js/utils.js"></script>
+<script src="/js/script.js"></script>
+
+
+
+
+
+
+
+  <script>
+    (function () {
+      var bp = document.createElement('script');
+      var curProtocol = window.location.protocol.split(':')[0];
+      if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+      } else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+      }
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(bp, s);
+    })();
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
