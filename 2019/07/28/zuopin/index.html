@@ -97,7 +97,7 @@ Androidベ...">
           api: ''
         },
         motto: {
-          default: '今日もお疲れさまでした。',
+          default: '今日もお疲れ様でした。',
           typing: true,
           api: '',
           data_contents: '["data","content"]'
@@ -201,7 +201,7 @@ Androidベ...">
     <div class="head-info">
       <span class="post-info-item"><i class="iconfont iconcalendar"></i>July 28, 2019</span>
       
-      <span class="post-info-item"><i class="iconfont iconfont-size"></i>19961</span>
+      <span class="post-info-item"><i class="iconfont iconfont-size"></i>19960</span>
     </div>
   </div>
 </section>
@@ -236,7 +236,7 @@ Androidベ...">
 <p>図5.1 オープントップページ</p>
 <p>図5.2 ログインインタフェース</p>
 <p>図5.3 登録インタフェース</p>
-<p>その中のパスワード回収機能はメールボックスからアカウントとパスワードを送信することによって実現され、nodejsが構築したバックグラウンドでは、nodemailerモジュールを呼び出すことによってこの機能を実現します。コアコードは以下の通りです。<br>const nodemailer &#x3D; require(‘nodemailer’)<br>const transporter &#x3D; nodemailer.createTransport({<br>     service: ‘qq’,<br>     port: 465, &#x2F;&#x2F; SMTPポート<br>      secureConnection: true, &#x2F;&#x2F; SSLを使用する<br>         auth: {<br>            user: ‘<a href="mailto:&#49;&#x32;&#x33;&#52;&#53;&#54;&#55;&#56;&#x39;&#x40;&#x67;&#109;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#111;&#x6d;">&#49;&#x32;&#x33;&#52;&#53;&#54;&#55;&#56;&#x39;&#x40;&#x67;&#109;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#111;&#x6d;</a>‘,<br>            pass: ‘abcdefghijk’  }<br>})<br>let mailOptions &#x3D; {<br>              from: ‘<a href="mailto:&#49;&#50;&#x33;&#x34;&#53;&#54;&#x37;&#x38;&#57;&#64;&#103;&#109;&#x61;&#x69;&#108;&#x2e;&#99;&#111;&#109;">&#49;&#50;&#x33;&#x34;&#53;&#54;&#x37;&#x38;&#57;&#64;&#103;&#109;&#x61;&#x69;&#108;&#x2e;&#99;&#111;&#109;</a>‘,<br>              to: obj.mail,<br>              subject: ‘账号密码找回’,<br>              text: ‘账号：’ + results[0].user + ‘ ，密码：’ + results[0].pwd<br>           }<br>        transporter.sendMail(mailOptions, function (error, info))<br>}<br>5.3.2 カルテディスプレイインタフェース<br>カルテプレゼンテーションインタフェースは登録後に展示される最初のインタフェースであり、主要な情報を搭載する部分でもあり、基本的にはユーザーのすべての情報がカルテ展示インタフェースの中で展示されるとともに、カルテ展示インタフェースにも文字情報入力モジュールの入り口及び詳細インタフェースの入り口が含まれています。<br>カルテプレゼンテーションインタフェースを図5.4に示します。</p>
+<p>その中のパスワード回収機能はメールボックスからアカウントとパスワードを送信することによって実現され、nodejsが構築したバックグラウンドでは、nodemailerモジュールを呼び出すことによってこの機能を実現します。コアコードは以下の通りです。<br>const nodemailer &#x3D; require(‘nodemailer’)<br>const transporter &#x3D; nodemailer.createTransport({<br>     service: ‘qq’,<br>     port: 465, &#x2F;&#x2F; SMTPポート<br>      secureConnection: true, &#x2F;&#x2F; SSLを使用する<br>         auth: {<br>            user: ‘<a href="mailto:&#x31;&#x32;&#x33;&#52;&#x35;&#x36;&#x37;&#56;&#57;&#64;&#103;&#109;&#x61;&#x69;&#x6c;&#46;&#99;&#x6f;&#x6d;">&#x31;&#x32;&#x33;&#52;&#x35;&#x36;&#x37;&#56;&#57;&#64;&#103;&#109;&#x61;&#x69;&#x6c;&#46;&#99;&#x6f;&#x6d;</a>‘,<br>            pass: ‘abcdefghijk’  }<br>})<br>let mailOptions &#x3D; {<br>              from: ‘<a href="mailto:&#x31;&#50;&#51;&#x34;&#53;&#54;&#55;&#56;&#x39;&#x40;&#x67;&#109;&#x61;&#x69;&#x6c;&#46;&#99;&#111;&#109;">&#x31;&#50;&#51;&#x34;&#53;&#54;&#55;&#56;&#x39;&#x40;&#x67;&#109;&#x61;&#x69;&#x6c;&#46;&#99;&#111;&#109;</a>‘,<br>              to: obj.mail,<br>              subject: ‘账号密码找回’,<br>              text: ‘账号：’ + results[0].user + ‘ ，密码：’ + results[0].pwd<br>           }<br>        transporter.sendMail(mailOptions, function (error, info))<br>}<br>5.3.2 カルテディスプレイインタフェース<br>カルテプレゼンテーションインタフェースは登録後に展示される最初のインタフェースであり、主要な情報を搭載する部分でもあり、基本的にはユーザーのすべての情報がカルテ展示インタフェースの中で展示されるとともに、カルテ展示インタフェースにも文字情報入力モジュールの入り口及び詳細インタフェースの入り口が含まれています。<br>カルテプレゼンテーションインタフェースを図5.4に示します。</p>
 <p>図5.4 プレゼンテーションインタフェース<br>5.3.3  モジュールプレゼンテーションインタフェース<br>モジュールプレゼンテーションインタフェースは患者のカルテ情報を統計し、それから部位別に展示し、疾病の出現回数によって体の部位を異なる色に標識し、出現回数の上昇によって緑から黄色と赤に順に、そして右側で問題の部位の回数を詳細に統計します。モジュールを図5.5に示します。</p>
 <p>図5.5モジュールプレゼンテーションインタフェース<br>5.3.4  情報インプットインタフェース<br>情報インプットインタフェースは、カルテ情報テキストをシステムに入力することです。情報インプットには2つの方法があります。1つは直接のテキスト入力で、もう1つは1つの画像をアップロードして画像認識を行った後、認識したテキストを対応するテキストボックスに入力し、その後テキスト入力インタフェースにジャンプします。画像アップロードのフロントエンドにはinputタグが実装されており、inputタグの属性をfileに設定した後、onclickイベントで$eventオブジェクトを傍受し、アップロードされた画像リソースを取得します。その後、フロントエンドでピクチャをbase 64形式にトランスコードしてpost方式でnodejsサーバに送信してピクチャ中の文字認識を行い、データを返します。また、より高解像度のピクチャを得るためには、フロントエンドはピクチャを圧縮する必要がないため、データ転送の過程でより多くの時間が必要になります。nodejsで画像認識部がBaidu OCRインタフェースを呼び出し、base 64フォーマットを受信する.pngピクチャは、その後認識された文字を返します。コアコードは次の通りです。<br>const AipOcrClient &#x3D; require(“baidu-aip-sdk”).ocr<br>          &#x2F;&#x2F; 百度apiオブジェクトの作成<br>          const client &#x3D; new AipOcrClient(APP_ID, API_KEY, SECRET_KEY);<br>          &#x2F;&#x2F; 文字認識結果の取得<br>app.post(‘&#x2F;img’, function (req, res) {<br>req.on(‘data’, function (data) {<br>let obj &#x3D; JSON.parse(data)<br>console.log(obj.img)<br>client.generalBasic(obj.img).then(function(result){<br>console.log(JSON.stringify(result))<br>res.send(JSON.stringify(result))<br>}).catch(function(err) {                   &#x2F;&#x2F; ネットワークエラーが発生した場合<br>  console.log(err);<br>res.send(‘识别失败’)<br>                 })<br>             })<br>          })<br>情報インプットインタフェースのスクリーンショットを図5.6に示します。</p>
 <p>図5.6(1)インプットインタフェース</p>
@@ -336,7 +336,7 @@ Androidベ...">
         href="mailto:m1228592999@gmail.com "
         target="_blank"
         class="footer-social-item"
-  onMouseOver="this.style.color='#FF3B00'" 
+        onMouseOver="this.style.color=#FF3B00" 
         onMouseOut="this.style.color='#33333D'">
           <i class="iconfont  iconmail"></i>
       </a></div>
